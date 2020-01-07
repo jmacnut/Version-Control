@@ -85,4 +85,9 @@ git pull origin master
 git add .
 git commit -m "adds all files to master branch"
 git push origin master
-.
+
+Force revert (resets GitHub as well! - recommend using git checkout, instead):
+
+git reset --hard c41eecfe260740001049f2dfde743fda78f59f83
+
+git push --force origin master
